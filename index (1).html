@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shyama Devi Lalbahadur Inter College</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #000;
+            background-color: #ffe0b2; /* Light orange background */
+        }
+
+        /* Header Section */
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            background: rgba(173, 216, 230, 0.5); /* Lighter light blue color for template */
+            border-bottom: 4px solid #138808;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header img {
+            width: 80px; /* Logo size */
+            margin-right: 20px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 2px;
+            color: #000;
+        }
+
+        /* Navigation Bar */
+        nav {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 10px 20px;
+            color: #000;
+            border: 2px solid transparent;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            background: #FF9933; /* Orange highlight */
+            color: #fff;
+            border-color: #FF9933;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 30px;
+            margin: 20px auto;
+            background: rgba(255, 255, 255, 0.8);
+            width: 95%;
+            max-width: 90%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #138808;
+            display: inline-block;
+            padding-bottom: 5px;
+            color: #000;
+        }
+
+        section p {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #000;
+        }
+
+        a {
+            color: #FF9933;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Gallery Section */
+        .gallery-container {
+            position: relative;
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
+            overflow: hidden; /* Hide extra images outside of container */
+        }
+
+        .gallery {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+
+        .gallery img {
+            width: 100%;
+            max-width: 250px; /* Image size */
+            height: 150px;
+            object-fit: cover;
+            margin-right: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        button.prev, button.next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            font-size: 30px;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 50%;
+            z-index: 10;
+        }
+
+        button.prev {
+            left: 0;
+        }
+
+        button.next {
+            right: 0;
+        }
+
+        button.prev:hover, button.next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        /* Video Section */
+        .video-player {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        iframe {
+            width: 100%;
+            max-width: 1000px;
+            height: 450px;
+            border-radius: 10px;
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: rgba(255, 153, 51, 0.2);
+            border-top: 4px solid #138808;
+            margin-top: 20px;
+        }
+
+        footer p {
+            font-size: 16px;
+            color: #000;
+        }
+
+        footer span {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="School Logo"> <!-- Placeholder for logo -->
+        <h1>Shyama Devi Lalbahadur Inter College</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#address">Address</a>
+        <a href="#details">Details</a>
+        <a href="#contact">Contact</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#video">Videos</a>
+        <a href="#links">Related Links</a>
+    </nav>
+
+    <section id="about" class="section-box">
+        <h2>About Us</h2>
+        <p>Welcome to Shyama Devi Lalbahadur Inter College, a premier educational institution recognized by the UP BOARD, Prayagraj. Our school provides quality education from classes 6 to 12 with Hindi as the medium of instruction.</p>
+    </section>
+
+    <section id="address" class="section-box">
+        <h2>Address</h2>
+        <p><strong>Location:</strong> Vill. PURE MANIRAM PANDEY JALAMA</p>
+        <p><strong>Nearby:</strong> MANAPUR SHAHGAR AMETHI</p>
+        <p><strong>Pin Code:</strong> 227411</p>
+    </section>
+
+    <section id="details" class="section-box">
+        <h2>Management Details</h2>
+        <p><strong>Founder:</strong> Mr. LALBAHADUR PANDEY</p>
+        <p><strong>Manager:</strong> Mr. ANIL PANDEY</p>
+    </section>
+
+    <section id="contact" class="section-box">
+        <h2>Contact</h2>
+        <p><strong>Email:</strong><br> shyamadevilalbahadurinter<br>colla@gmail.com</p>
+        <p><strong>Phone:</strong> +91 73989 39385</p>
+    </section>
+
+    <section id="gallery" class="section-box">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+            <button class="prev" onclick="moveSlide(-1)">❮</button>
+            <div class="gallery">
+                <!-- Add as many images as you want here -->
+                <img src="image1.jpg" alt="Gallery Image 1">
+                <img src="image2.jpg" alt="Gallery Image 2">
+                <img src="image3.jpg" alt="Gallery Image 3">
+                <img src="image4.jpg" alt="Gallery Image 4">
+                <img src="image5.jpg" alt="Gallery Image 5">
+                <img src="image6.jpg" alt="Gallery Image 6">
+                <!-- More images can be added similarly -->
+            </div>
+            <button class="next" onclick="moveSlide(1)">❯</button>
+        </div>
+    </section>
+
+    <section id="video" class="section-box">
+        <h2>Videos</h2>
+        <div class="video-player">
+            <!-- YouTube Playlist Embedding -->
+            <iframe src="https://www.youtube.com/embed?listType=playlist&amp;list=3eNMfu7mK27FnMOP" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="links" class="section-box">
+        <h2>Related Links</h2>
+        <ul>
+            <li><a href="https://youtube.com/@shyamadevilalbahadurintercolla?si=3eNMfu7mK27FnMOP" target="_blank">YouTube Channel</a></li>
+            <li><a href="https://www.facebook.com/groups/349443017191615/?ref=share_group_link" target="_blank">Facebook Group</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2024 Shyama Devi Lalbahadur Inter College. All Rights Reserved.</p>
+        <p>Website Developed By: <span>Mr. Adarsh Tiwari</span></p>
+    </footer>
+
+    <script>
+        let slideIndex = 0;
+
+        function moveSlide(step) {
+            const gallery = document.querySelector('.gallery');
+            const slides = document.querySelectorAll('.gallery img');
+            const totalSlides = slides.length;
+
+            slideIndex += step;
+
+            if (slideIndex < 0) {
+                slideIndex = totalSlides - 1;
+            } else if (slideIndex >= totalSlides) {
+                slideIndex = 0;
+            }
+
+            const offset = -slideIndex * (slides[0].clientWidth + 20); // width of image + margin-right
+            gallery.style.transform = `</script></body></html>
